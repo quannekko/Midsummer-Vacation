@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3 uid="uid://dr0gv42qej13v"]
+
+[ext_resource type="AudioStream" uid="uid://dox4on0gl6m7c" path="res://Assets/Musics/NEVERLAND Schedule Check (Day) [GODDESS OF VICTORY NIKKE OST].ogg" id="1_740en"]
+[ext_resource type="Script" path="res://Scenes/MainMenu.gd" id="1_avqcv"]
+[ext_resource type="Texture2D" uid="uid://dhvfx4yabas18" path="res://Assets/Background/BG_RyoKanFront.jpg" id="1_qvyew"]
+[ext_resource type="FontFile" uid="uid://duoynmi65sme4" path="res://Assets/Fonts/SCRUBLAND.ttf" id="2_1oakm"]
+[ext_resource type="FontFile" uid="uid://c4x3t44twiume" path="res://Assets/Fonts/PixeloidSans-mLxMm.ttf" id="3_ilq3r"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_avqcv")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_740en")
+autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_qvyew")
+expand_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="Seperator" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 14
+theme_override_fonts/font = ExtResource("2_1oakm")
+theme_override_font_sizes/font_size = 60
+text = "MIDSUMMER LEISURE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="Seperator2" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="start_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(180, 48)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ilq3r")
+theme_override_font_sizes/font_size = 20
+text = "New Game"
+
+[node name="load_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(180, 48)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ilq3r")
+theme_override_font_sizes/font_size = 20
+text = "Load Game"
+
+[node name="setting_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(180, 48)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ilq3r")
+theme_override_font_sizes/font_size = 20
+text = "Settings"
+
+[node name="exit_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(180, 48)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ilq3r")
+theme_override_font_sizes/font_size = 20
+text = "Quit"

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dox4on0gl6m7c"
+path="res://.godot/imported/NEVERLAND Schedule Check (Day) [GODDESS OF VICTORY NIKKE OST].ogg-d394051ff5f745a7e0762f0ea431efae.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Musics/NEVERLAND Schedule Check (Day) [GODDESS OF VICTORY NIKKE OST].ogg"
+dest_files=["res://.godot/imported/NEVERLAND Schedule Check (Day) [GODDESS OF VICTORY NIKKE OST].ogg-d394051ff5f745a7e0762f0ea431efae.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
