@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dr0gv42qej13v"]
+[gd_scene load_steps=7 format=3 uid="uid://dr0gv42qej13v"]
 
 [ext_resource type="AudioStream" uid="uid://dox4on0gl6m7c" path="res://Assets/Musics/NEVERLAND Schedule Check (Day) [GODDESS OF VICTORY NIKKE OST].ogg" id="1_740en"]
 [ext_resource type="Script" path="res://Scenes/MainMenu.gd" id="1_avqcv"]
 [ext_resource type="Texture2D" uid="uid://dhvfx4yabas18" path="res://Assets/Background/BG_RyoKanFront.jpg" id="1_qvyew"]
 [ext_resource type="FontFile" uid="uid://duoynmi65sme4" path="res://Assets/Fonts/SCRUBLAND.ttf" id="2_1oakm"]
 [ext_resource type="FontFile" uid="uid://c4x3t44twiume" path="res://Assets/Fonts/PixeloidSans-mLxMm.ttf" id="3_ilq3r"]
+[ext_resource type="PackedScene" uid="uid://dgs153dardl6u" path="res://Scenes/setting_menu.tscn" id="6_1njdm"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -102,3 +103,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("3_ilq3r")
 theme_override_font_sizes/font_size = 20
 text = "Quit"
+
+[node name="Setting_Menu" parent="." instance=ExtResource("6_1njdm")]
+visible = false
+layout_mode = 1
