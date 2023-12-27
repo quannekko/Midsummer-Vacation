@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dayiv3xltax5j"
-path="res://.godot/imported/PixeloidSansBold-PKnYd.ttf-dcab5675c0f51d00178ab928f6582078.fontdata"
+uid="uid://bxvi104bm4q3i"
+path="res://.godot/imported/NeusaNextPro-WideBoldItalic.otf-5388fb59baac51f7736297280a7da566.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/PixeloidSansBold-PKnYd.ttf"
-dest_files=["res://.godot/imported/PixeloidSansBold-PKnYd.ttf-dcab5675c0f51d00178ab928f6582078.fontdata"]
+source_file="res://Fonts/neusa-next/NeusaNextPro-WideBoldItalic.otf"
+dest_files=["res://.godot/imported/NeusaNextPro-WideBoldItalic.otf-5388fb59baac51f7736297280a7da566.fontdata"]
 
 [params]
 

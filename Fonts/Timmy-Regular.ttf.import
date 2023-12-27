@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://deadcnsodp7nk"
-path="res://.godot/imported/x12y12pxMaruMinya.ttf-26fcd6de39ab69de91f49285b961e22d.fontdata"
+uid="uid://c1xqaqxicwb2x"
+path="res://.godot/imported/Timmy-Regular.ttf-b247214a0027f8950ec1b32b8f69bfc8.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/x12y12pxMaruMinya.ttf"
-dest_files=["res://.godot/imported/x12y12pxMaruMinya.ttf-26fcd6de39ab69de91f49285b961e22d.fontdata"]
+source_file="res://Fonts/Timmy-Regular.ttf"
+dest_files=["res://.godot/imported/Timmy-Regular.ttf-b247214a0027f8950ec1b32b8f69bfc8.fontdata"]
 
 [params]
 

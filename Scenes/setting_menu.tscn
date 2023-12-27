@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dgs153dardl6u"]
+[gd_scene load_steps=4 format=3 uid="uid://dgs153dardl6u"]
 
-[ext_resource type="FontFile" uid="uid://deadcnsodp7nk" path="res://Assets/Fonts/x12y12pxMaruMinya.ttf" id="1_c5tiv"]
+[ext_resource type="FontFile" uid="uid://deadcnsodp7nk" path="res://Fonts/x12y12pxMaruMinya.ttf" id="1_c5tiv"]
 [ext_resource type="Script" path="res://Scenes/setting_menu.gd" id="1_v0efm"]
+[ext_resource type="PackedScene" uid="uid://d2qhtywsn7s4s" path="res://Scenes/setting_tab_container.tscn" id="3_wsow3"]
 
 [node name="Setting_Menu" type="Control"]
 layout_mode = 3
@@ -39,9 +40,13 @@ text = "Setting"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Setting_Tab_Container" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_wsow3")]
+layout_mode = 2
+size_flags_vertical = 3
+
 [node name="Back_Button" type="Button" parent="MarginContainer/VBoxContainer"]
 custom_minimum_size = Vector2(80, 40)
 layout_mode = 2
 size_flags_horizontal = 4
-size_flags_vertical = 10
+size_flags_vertical = 8
 text = "Back"

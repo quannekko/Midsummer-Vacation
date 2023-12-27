@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://b5j8glsrooa3t"
-path="res://.godot/imported/BestTen-DOT.otf-36e4212b8c3a344946b899d4ee5826f1.fontdata"
+uid="uid://c4x3t44twiume"
+path="res://.godot/imported/PixeloidSans-mLxMm.ttf-56412537aa9cfbf11d73271ecd6baf3b.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/BestTen-DOT.otf"
-dest_files=["res://.godot/imported/BestTen-DOT.otf-36e4212b8c3a344946b899d4ee5826f1.fontdata"]
+source_file="res://Fonts/PixeloidSans-mLxMm.ttf"
+dest_files=["res://.godot/imported/PixeloidSans-mLxMm.ttf-56412537aa9cfbf11d73271ecd6baf3b.fontdata"]
 
 [params]
 

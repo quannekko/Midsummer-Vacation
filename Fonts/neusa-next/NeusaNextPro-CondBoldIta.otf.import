@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://c4x3t44twiume"
-path="res://.godot/imported/PixeloidSans-mLxMm.ttf-b046861b141c556cff72a14a273703a2.fontdata"
+uid="uid://relro7vgqluc"
+path="res://.godot/imported/NeusaNextPro-CondBoldIta.otf-82e30fc941da0dc47130a5f364a2a9e2.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/PixeloidSans-mLxMm.ttf"
-dest_files=["res://.godot/imported/PixeloidSans-mLxMm.ttf-b046861b141c556cff72a14a273703a2.fontdata"]
+source_file="res://Fonts/neusa-next/NeusaNextPro-CondBoldIta.otf"
+dest_files=["res://.godot/imported/NeusaNextPro-CondBoldIta.otf-82e30fc941da0dc47130a5f364a2a9e2.fontdata"]
 
 [params]
 

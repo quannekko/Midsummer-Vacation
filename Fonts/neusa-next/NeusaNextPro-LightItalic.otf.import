@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://duoynmi65sme4"
-path="res://.godot/imported/SCRUBLAND.ttf-7acbfc83fdc120ea3d97f0e44d644bd4.fontdata"
+uid="uid://ts3j170ko231"
+path="res://.godot/imported/NeusaNextPro-LightItalic.otf-2406e2206d751a8244d27d341146ee68.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/SCRUBLAND.ttf"
-dest_files=["res://.godot/imported/SCRUBLAND.ttf-7acbfc83fdc120ea3d97f0e44d644bd4.fontdata"]
+source_file="res://Fonts/neusa-next/NeusaNextPro-LightItalic.otf"
+dest_files=["res://.godot/imported/NeusaNextPro-LightItalic.otf-2406e2206d751a8244d27d341146ee68.fontdata"]
 
 [params]
 

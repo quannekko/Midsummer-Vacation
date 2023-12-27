@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cil0mqvjv2d31"
-path="res://.godot/imported/AsepriteFont.ttf-02c5587d2f4ac72984c17e321d6975b6.fontdata"
+uid="uid://kjqxvfhdaca5"
+path="res://.godot/imported/NeusaNextPro-CondensedBold.otf-9ab4ebce4b42676efd9a4f964c3966e0.fontdata"
 
 [deps]
 
-source_file="res://Assets/Fonts/AsepriteFont.ttf"
-dest_files=["res://.godot/imported/AsepriteFont.ttf-02c5587d2f4ac72984c17e321d6975b6.fontdata"]
+source_file="res://Fonts/neusa-next/NeusaNextPro-CondensedBold.otf"
+dest_files=["res://.godot/imported/NeusaNextPro-CondensedBold.otf-9ab4ebce4b42676efd9a4f964c3966e0.fontdata"]
 
 [params]
 
