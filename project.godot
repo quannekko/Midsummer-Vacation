@@ -17,8 +17,14 @@ config/icon="res://testicon2.png"
 
 [display]
 
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/resizable=false
 window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+window/stretch/scale_mode="integer"
 window/per_pixel_transparency/allowed=true
+mouse_cursor/custom_image="res://Assets/HUD/CURSOR-export.png"
 
 [filesystem]
 
@@ -51,7 +57,12 @@ move_right={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Ground"
+
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 2d/snap/snap_2d_transforms_to_pixel=true
 2d/snap/snap_2d_vertices_to_pixel=true

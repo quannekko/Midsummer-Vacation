@@ -1,0 +1,90 @@
+[gd_scene load_steps=14 format=3 uid="uid://i4vqevmfa727"]
+
+[ext_resource type="Texture2D" uid="uid://bcrgrg7brmh6a" path="res://Assets/HUD/KEYS/LIGHT/W-Key.png" id="1_q2gm4"]
+[ext_resource type="Script" path="res://Assets/HUD/keys.gd" id="1_q5r34"]
+[ext_resource type="Texture2D" uid="uid://cq6j8t2a2qo3m" path="res://Assets/HUD/KEYS/DARK/W-Key.png" id="2_lvslo"]
+[ext_resource type="Texture2D" uid="uid://ci8mcgn815gjq" path="res://Assets/HUD/KEYS/LIGHT/S-Key.png" id="3_3hu60"]
+[ext_resource type="Texture2D" uid="uid://by7614yi03mua" path="res://Assets/HUD/KEYS/DARK/S-Key.png" id="4_vjdle"]
+[ext_resource type="Texture2D" uid="uid://cl1dv5aqh28qs" path="res://Assets/HUD/KEYS/LIGHT/A-Key.png" id="5_lrnvi"]
+[ext_resource type="Texture2D" uid="uid://dnelac0ikdd4e" path="res://Assets/HUD/KEYS/DARK/A-Key.png" id="6_xu1uf"]
+[ext_resource type="Texture2D" uid="uid://cs6mkn8r055gu" path="res://Assets/HUD/KEYS/LIGHT/D-Key.png" id="7_kdaa1"]
+[ext_resource type="Texture2D" uid="uid://bcu61qoxd0c8t" path="res://Assets/HUD/KEYS/DARK/D-Key.png" id="8_s1gm4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q60wn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_q2gm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lvslo")
+}],
+"loop": true,
+"name": &"W",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mh52j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_3hu60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vjdle")
+}],
+"loop": true,
+"name": &"S",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1brik"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_lrnvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xu1uf")
+}],
+"loop": true,
+"name": &"A",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4jor1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_kdaa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_s1gm4")
+}],
+"loop": true,
+"name": &"D",
+"speed": 5.0
+}]
+
+[node name="Keys" type="CanvasLayer"]
+script = ExtResource("1_q5r34")
+
+[node name="W" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3690, 1530)
+sprite_frames = SubResource("SpriteFrames_q60wn")
+animation = &"W"
+
+[node name="S" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3700, 2150)
+sprite_frames = SubResource("SpriteFrames_mh52j")
+animation = &"S"
+
+[node name="A" type="AnimatedSprite2D" parent="."]
+position = Vector2(-4340, 2150)
+sprite_frames = SubResource("SpriteFrames_1brik")
+animation = &"A"
+
+[node name="D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3030, 2150)
+sprite_frames = SubResource("SpriteFrames_4jor1")
+animation = &"D"

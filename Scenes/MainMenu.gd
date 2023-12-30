@@ -9,7 +9,7 @@ extends Control
 @onready var exit_button = $MarginContainer/HBoxContainer/VBoxContainer/exit_button as Button
 @onready var margin_container = $MarginContainer as MarginContainer
 
-@onready var start_level = preload("res://node_2d.tscn") as PackedScene
+@onready var start_level = preload("res://Scenes/main.tscn") as PackedScene
 
 
 func _ready():

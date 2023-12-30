@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://d2qhtywsn7s4s"]
 
 [ext_resource type="PackedScene" uid="uid://cvsxj5ttj2ps0" path="res://Scenes/hotkey_rebind_button.tscn" id="1_gk7yc"]
-[ext_resource type="PackedScene" uid="uid://cfnfrtd3dv5gw" path="res://Scenes/UI/window_mode_button.tscn" id="1_mx0pw"]
-[ext_resource type="PackedScene" uid="uid://jvct3cyjptsv" path="res://Scenes/UI/resolution_mode_button.tscn" id="2_0qp8g"]
-[ext_resource type="PackedScene" uid="uid://dxv775hqsenyc" path="res://Scenes/UI/audio_slider_settings.tscn" id="3_ntiay"]
+[ext_resource type="PackedScene" uid="uid://cfnfrtd3dv5gw" path="res://UI/window_mode_button.tscn" id="1_iijsj"]
+[ext_resource type="PackedScene" uid="uid://jvct3cyjptsv" path="res://UI/resolution_mode_button.tscn" id="2_q5584"]
+[ext_resource type="PackedScene" uid="uid://dxv775hqsenyc" path="res://UI/audio_slider_settings.tscn" id="3_th6m7"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_eqt16"]
 
@@ -27,7 +27,7 @@ offset_bottom = -50.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 3
+current_tab = 2
 
 [node name="Display" type="TabBar" parent="TabContainer"]
 visible = false
@@ -53,11 +53,11 @@ layout_mode = 2
 theme_override_constants/separation = 64
 alignment = 1
 
-[node name="Window_Mode_Button" parent="TabContainer/Display/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_mx0pw")]
+[node name="Window_Mode_Button" parent="TabContainer/Display/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_iijsj")]
 custom_minimum_size = Vector2(320, 24)
 layout_mode = 2
 
-[node name="Resolution_Mode_Button" parent="TabContainer/Display/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_0qp8g")]
+[node name="Resolution_Mode_Button" parent="TabContainer/Display/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_q5584")]
 custom_minimum_size = Vector2(320, 24)
 layout_mode = 2
 
@@ -86,7 +86,6 @@ alignment = 1
 layout_mode = 2
 
 [node name="Audio" type="TabBar" parent="TabContainer"]
-visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Audio"]
@@ -106,33 +105,34 @@ layout_mode = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Audio/MarginContainer/ScrollContainer"]
 layout_mode = 2
-theme_override_constants/separation = 50
+theme_override_constants/separation = 48
 alignment = 1
 
-[node name="Audio_Slider_Settings" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ntiay")]
+[node name="Audio_Slider_Settings" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_th6m7")]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 
-[node name="Audio_Slider_Settings2" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ntiay")]
+[node name="Audio_Slider_Settings2" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_th6m7")]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 bus_name = "BGM"
 
-[node name="Audio_Slider_Settings3" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ntiay")]
+[node name="Audio_Slider_Settings3" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_th6m7")]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 bus_name = "Voice"
 
-[node name="Audio_Slider_Settings4" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ntiay")]
+[node name="Audio_Slider_Settings4" parent="TabContainer/Audio/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_th6m7")]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 bus_name = "SFX"
 
 [node name="Controls" type="TabBar" parent="TabContainer"]
+visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Controls"]
